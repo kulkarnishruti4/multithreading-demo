@@ -8,6 +8,8 @@ public class MultithreadingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MultithreadingApplication.class, args);
+		System.out.println("Thread is a Unit of process.");
+		System.out.println("***************************");
 	}
 
 }
